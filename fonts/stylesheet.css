@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Archivo';
+    src: url('ArchivoBlack-Regular.eot');
+    src: url('ArchivoBlack-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArchivoBlack-Regular.woff2') format('woff2'),
+        url('ArchivoBlack-Regular.woff') format('woff'),
+        url('ArchivoBlack-Regular.svg#ArchivoBlack-Regular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
