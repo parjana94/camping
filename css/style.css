@@ -12,7 +12,7 @@ body{
 
 }
 .header{
-    position: fixed;
+    position: absolute;
     top:60px;
     max-width: 1320px;
     margin: 0 auto;
@@ -138,6 +138,115 @@ body{
 .discover-a:hover{
     color: #D2D2D2;
 }
+
+
+.cards{
+    position: absolute;
+    bottom: -200px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+}
+.card-img{
+    padding-top: 65px;
+}
+.card-title{
+    font-size: 18px;
+    font-family: 'Archivo';
+    text-transform: capitalize;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.card-p{
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.card-margin{
+    margin-left: 30px;
+}
+
+.activities-title{
+    margin-top: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-h2{
+    font-size: 40px;
+    font-family: 'Archivo';
+    width: 500px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.activities-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    
+}
+.activities-img{
+    position: relative;
+}
+.overly{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.activities-p{
+    width: 400px;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+.activities-a{
+    background-color: rgba(141, 141, 141, 0.1);
+    padding: 15px 50px;
+    color: #707070;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 30px;
+}
+
+.activities-a:hover{
+    color: #D2D2D2;
+}
+
+.heart{
+    position: absolute;
+    top:20px;
+    right:20px;
+}
+.price{
+    position: absolute;
+    bottom:-40px ;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+.price-h3{
+    color: #E76F51;
+    font-size: 16px;
+    font-family: 'Roboto';
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+
+
 
 @media (max-width:1140px){
     .discover-box{
